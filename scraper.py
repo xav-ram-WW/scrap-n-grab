@@ -19,11 +19,11 @@ def scrape(site):
                 print(site)
                 # calling the scrape function itself
                 # generally called recursion
-                scape(site)
+                scrape(site)
 
 # main function
 if __name__ == "__main__":
     # website to be scrape 
     site = "http://example.webscraping.com//"
     # calling function 
-    scrape(site)
+     scrape(site)
